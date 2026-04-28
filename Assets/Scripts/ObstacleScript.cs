@@ -5,37 +5,51 @@ public class ObstacleScript : MonoBehaviour
     Rigidbody2D rb;
     public float minSize = 0.5f;
     public float maxSize = 2f;
-    public float minSpeed = 50f;
+    public float minSpeed = 100f;
     public float maxSpeed = 150f;
     public float maxspin = 10f;
+
+    // Thêm biến để giới hạn tốc độ tối đa
+    public float maxVelocityLimit = 5f;
+
     public GameObject bounceEffectPrefab;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        // Xử lý random kích thước
         float randomSize = Random.Range(minSize, maxSize);
         transform.localScale = new Vector3(randomSize, randomSize, randomSize);
+
         rb = GetComponent<Rigidbody2D>();
-        float randomSpeed = Random.Range(minSpeed, maxSpeed)/randomSize;
-        Vector2 randomDirection = Random.insideUnitCircle;
+
+        // Xử lý lực ban đầu
+        float randomSpeed = Random.Range(minSpeed, maxSpeed) / randomSize;
+        Vector2 randomDirection = Random.insideUnitCircle.normalized;
         rb.AddForce(randomDirection * randomSpeed);
+
+        // Xử lý momen xoắn
         float randomTorque = Random.Range(-maxspin, maxspin);
         rb.AddTorque(randomTorque);
-
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate được gọi mỗi khung hình vật lý (thích hợp để xử lý Rigidbody)
+    void FixedUpdate()
     {
-
+        // Kiểm tra nếu tốc độ hiện tại vượt quá giới hạn
+        if (rb.linearVelocity.magnitude > maxVelocityLimit)
+        {
+            // Thiết lập vận tốc về mức giới hạn nhưng vẫn giữ nguyên hướng di chuyển
+            rb.linearVelocity = rb.linearVelocity.normalized * maxVelocityLimit;
+        }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector2 contactPoint = collision.GetContact(0).point;
-        GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity);
-
-        // Destroy the effect after 1 second
-        Destroy(bounceEffect, 1f);
+        if (bounceEffectPrefab != null)
+        {
+            Vector2 contactPoint = collision.GetContact(0).point;
+            GameObject bounceEffect = Instantiate(bounceEffectPrefab, contactPoint, Quaternion.identity);
+            Destroy(bounceEffect, 1f);
+        }
     }
 }

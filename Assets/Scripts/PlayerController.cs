@@ -70,6 +70,7 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
+        // xử lý nhấn chuột trái 
         if (Mouse.current.leftButton.isPressed)
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
@@ -78,11 +79,13 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(direction * thrustForce);
         }
 
+        // giới hạn tốc độ
         if (rb.linearVelocity.magnitude > maxSpeed)
         {
             rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
         }
 
+        // xử lý bật tắt lửa 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             boosterFlame.SetActive(true);
