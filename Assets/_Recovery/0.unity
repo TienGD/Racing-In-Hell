@@ -380,11 +380,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.14
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.13
+      value: -1.76
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -428,16 +428,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -602,16 +598,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -949,7 +941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.21
+      value: 16.1064
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
@@ -957,7 +949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08
+      value: -0.0929
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalRotation.w
@@ -997,16 +989,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1206,11 +1194,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.07
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.34
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1254,16 +1242,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1320,11 +1304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.97
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.21
+      value: -3.99
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1368,16 +1352,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1526,11 +1506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.16
+      value: 16.36
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.66
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1574,16 +1554,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -1640,11 +1616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.28
+      value: 13.28
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.07
+      value: -4.03
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1688,16 +1664,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -2247,7 +2219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.08
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2291,16 +2263,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7
@@ -2617,11 +2585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.37
+      value: -3.4659
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.79
+      value: -7.5605
       objectReference: {fileID: 0}
     - target: {fileID: 2010676092499507424, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2665,7 +2633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: minSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3753632711862275026, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: ExplosionEffect
@@ -2675,10 +2643,6 @@ PrefabInstance:
       propertyPath: bounceEffectPrefab
       value: 
       objectReference: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
-    - target: {fileID: 6097034349380746404, guid: 7248ca0139a9b5344998df205e470789, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6581920725328821460, guid: 7248ca0139a9b5344998df205e470789, type: 3}
       propertyPath: m_Size.x
       value: 0.7

@@ -108,9 +108,9 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2e227723626189249bd2d885968c8af1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -133,12 +133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c8731c3f6588054186bb06c52e0c6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleScript
-  minSize: 0.5
-  maxSize: 2
-  minSpeed: 50
+  minSize: 1
+  maxSize: 4
+  minSpeed: 80
   maxSpeed: 150
   maxspin: 10
-  bounceEffectPrefab: {fileID: 0}
+  bounceEffectPrefab: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
 --- !u!58 &7976205270951110686
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -174,4 +174,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.35
+  m_Radius: 0.33
