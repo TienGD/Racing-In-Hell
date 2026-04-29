@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8c8731c3f6588054186bb06c52e0c6aa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bounceEffectPrefab: {fileID: 7387689697794521157, guid: e101419401abb5f4ab083654356189f4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
