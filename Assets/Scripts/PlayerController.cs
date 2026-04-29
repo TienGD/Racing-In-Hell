@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     private Label highScoreText;
     public GameObject ExplosionEffect;
     private Button RestartButton;
+    public GameObject borderParent;
+    
 
     // ĐƯỜNG DẪN FILE TẠI Ổ D
     private string directoryPath = @"D:\UnityMaterial\GameData";
@@ -113,7 +115,9 @@ public class PlayerController : MonoBehaviour
 
         RestartButton.style.display = DisplayStyle.Flex;
         highScoreText.text = "High Score: " + highScore;
+       
         gameObject.SetActive(false);
+        borderParent.SetActive(false);
     }
 
     // --- HÀM XỬ LÝ JSON ---
